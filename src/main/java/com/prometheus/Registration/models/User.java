@@ -4,7 +4,6 @@ package com.prometheus.Registration.models;
 import com.sun.istack.NotNull;
 
 
-import javax.management.relation.Role;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;

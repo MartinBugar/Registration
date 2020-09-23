@@ -5,7 +5,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.Set;
 
-public class SingUpRequest {
+public class SignUpRequest {
 
     @NotBlank
     @Size(min = 3, max = 20)
@@ -44,6 +44,14 @@ public class SingUpRequest {
 
     public void setRole (Set<String> role){
         this.role = role;
+    }
+
+    public String getPassword(){
+        return password;
+    }
+
+    public void setPassword (String password){
+        this.password = password;
     }
 
 }
